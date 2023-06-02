@@ -30,8 +30,6 @@ for line in passinpot:
       os.system("clear")
       userLIST.append(u)
       print("USER FUONDD  ",a, "and PASS","[",listpas,"]")
-      exit(1)
-
 
 
 
