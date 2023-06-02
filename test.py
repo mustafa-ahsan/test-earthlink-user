@@ -13,8 +13,8 @@ for line in passinpot:
 
   data = {
   'grant_type': 'password',
-  'username': u,
-  'password': a,
+  'username': a,
+  'password': listpas,
   'Logintype': '0'
   }
 
