@@ -6,7 +6,7 @@ u = input("Enter User for attack: ")
 listpas = input("Enter password list: ")
 userLIST = []
 usernameLIST = []
-passinpot = open(listpas, 'r').readlines()
+passinpot = open(u, 'r').readlines()
 for line in passinpot:
   a = line.strip()
 
