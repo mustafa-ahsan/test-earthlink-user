@@ -29,7 +29,7 @@ for line in passinpot:
   if 'access_token' in http.text:
       os.system("clear")
       userLIST.append(u)
-      print("USER FUONDD  ",a, "and PASS","[",listpas,"]")
+      print("USER FUONDD  ",userLIST, "and PASS","[",listpas,"]")
 
 
 
